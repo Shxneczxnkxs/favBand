@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body ng-app="favBand">
+      <div ng-controller="MainCtrl">
+        <h3>Rage Against the Machine:</h3>
+        <ul>
+          <li ng-repeat="rage in ratm">{{rage}}</li>
+        </ul>
+      </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+    <script src="main.controller.js"></script>
+  </body>
+</html>
